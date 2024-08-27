@@ -159,6 +159,8 @@ def Actualizar():
                             elif option == "":
                                 print("Actualizacion no realizada")
                                 break
+                            else:
+                                print("Opcion no valida")
                 else:
                     print(f"No hay reservas a nombre de {nombre}")
         else:
